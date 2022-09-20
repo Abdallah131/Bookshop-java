@@ -144,7 +144,7 @@ public class Register {
 				String pass2r= Registerpass2.getText();
 				if (namer.isEmpty() || (emailr.isEmpty() || (passr.isEmpty()|| (pass2r.isEmpty())))) {
 					JOptionPane.showMessageDialog(null,"All fields must be filled!");
-				}
+				}else {
 				
 				String name = Registername.getText();
 				String email = Registeremail.getText();
@@ -172,7 +172,7 @@ public class Register {
 					
 					System.err.println(es.getMessage());
 				}
-				
+				}
 				
 			}
 		});
